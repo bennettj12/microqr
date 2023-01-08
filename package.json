@@ -1,0 +1,16 @@
+{
+  "name": "microqr",
+  "version": "0.0.1",
+  "description": "Generates a micro qr from text",
+  "type": "module",
+  "main": "microqr.js",
+  "scripts": {
+    "qr": "node microqr.js"
+  },
+  "author": "Bennett Johnson",
+  "license": "ISC",
+  "dependencies": {
+    "pureimage": "^0.3.15",
+    "reedsolomon": "^1.0.0"
+  }
+}
